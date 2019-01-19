@@ -1,0 +1,78 @@
+baseURL = "https://sergivb01.me"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Sergi Vos Bosch"
+theme = "hermit"
+enableGitInfo = false
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+pygmentsStyle = "monokai"
+rssLimit = 15
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+enableEmoji = true
+# googleAnalytics = "UA-123-45"
+disqusShortname = "sergivb01"
+
+[author]
+  name = "Sergi Vos"
+
+[blackfriday]
+  hrefTargetBlank = true
+  angledQuotes = true
+  nofollowLinks = true
+  noreferrerLinks = true
+
+[taxonomies]
+  tag = "tags"
+  category = ""  # Categories are disabled by default.
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  # description = ""
+  # images = [""]
+  themeColor = "#494f5c"
+
+  homeSubtitle = "A personal site from a young guy."
+  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  # bgImg = ""  # Homepage background-image URL
+  justifyContent = false  # Set "text-align: justify" to .content.
+
+  # Social Icons
+  # Check https://github.com/Track3/hermit#social-icons for more info.
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/sergivb01"
+
+  [[params.social]]
+    name = "instagram"
+    url = "https://instagram.com/sergivb01"
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/sergivb01"
+
+  [[params.social]]
+    name = "email"
+    url = "mailto:hi@sergivb01.me?Subject=Hi"
+
+[menu]
+
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "About"
+    url = "about-hugo/"
+    weight = 20
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
