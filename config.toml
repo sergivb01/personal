@@ -69,7 +69,7 @@ disqusShortname = "sergivb01"
 
   [[menu.main]]
     name = "About"
-    url = "about-hugo/"
+    url = "about/"
     weight = 20
 
 [sitemap]
