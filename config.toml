@@ -1,7 +1,7 @@
 baseURL = "https://sergivb01.me"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Sergi Vos Bosch"
+title = "Sergi Vos"
 theme = "hermit"
 enableGitInfo = false
 pygmentsCodefences  = true
@@ -37,7 +37,7 @@ disqusShortname = "sergivb01"
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "A personal site from a young guy."
+  homeSubtitle = "tech enthusiastic and coder"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
   justifyContent = false  # Set "text-align: justify" to .content.
