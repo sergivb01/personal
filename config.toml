@@ -10,7 +10,7 @@ pygmentsStyle = "monokai"
 rssLimit = 15
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 enableEmoji = true
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-132775152-1"
 disqusShortname = "sergivb01"
 
 [author]
