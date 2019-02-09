@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/sergivb01
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://sergivb01.me
+  * I am sergivb01 (https://keybase.io/sergivb01) on keybase.
+  * I have a public key with fingerprint 65E7 00BD 66F9 5368 90A3  3670 A6A4 010F F89F 2652
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101be5290dcdf108174a0ad36e960a0bae5e51b41a4b5c8e88c899ee41b8c0e6a3e0a",
+      "fingerprint": "65e700bd66f9536890a33670a6a4010ff89f2652",
+      "host": "keybase.io",
+      "key_id": "a6a4010ff89f2652",
+      "kid": "0101be5290dcdf108174a0ad36e960a0bae5e51b41a4b5c8e88c899ee41b8c0e6a3e0a",
+      "uid": "31e0126c6c624ed8a49a4f6a731b0119",
+      "username": "sergivb01"
+    },
+    "service": {
+      "hostname": "sergivb01.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1549728431,
+  "expire_in": 157680000,
+  "prev": "9640fe17d12eab3455952516208c9bd717a68a2b0180ac373ab4c5f9ed554be7",
+  "seqno": 48,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.80
+Comment: https://keybase.io/crypto
+
+yMIjAnicrVJbSBRRGN4tTVSyxOhiiDKY9LAt58zMmcuGkVlQUCBFCLW5nZk5o6O2
+s+2O6y3BS5BpSVBEBiGGWBDWi1BYllcoDFOinqzVwoowxFtYkXZG6iV67JyHc/5z
+vu/7v//nH1i72hHnbG9zrltsyTjsHOptLnF4877fq2QUUytnPJVMEVk5SLFGQpav
+yNAYDwMggApBrAw0VdMhkKDIY4A1TiCyADBQMEEEQYWHmFeQKhFJUiVZJoSHiqQC
+ImCOAMy4GN3w55NgIGj4LSorICICoGiCoMuIEyQZYI4TRIAFzNOUui7JOisglhIL
+zJDNoOYUHCJuw6RvNPCt2PsH/j/7LlmR4yABkBVUulmeaBLmZczrAhY5qAAIZRsY
+IkE/PkUomt7yjTD9YKpcdhA2VGJ31i7lb4ibhi4mEDQtUzWL6U+BZQVCHptplQds
+aClRfL9FfIrh12gjKSNMgiHD9DMeSJGqZdiqEPGyyEo8B10MKQsYQeIzbAQSBQnQ
+ZechYSopCzzQCRQ1yBKscDxCMmIRFFggqbKiiVDEgoRZak8CWOVEDiu8inSZaAjx
+ChEZu6zTfpPx8BL1ifPtiox8P7ZKgoSp6uvxRjmccY410avsCXPExa7/M3eR6phl
+fbJ6rtGR0pyTV9y61ZFSll62f3jaFWoiaQ8mEpuWnCW1FTc/nO+PsAuZCWOJB3OG
+uzMP9YtpHa1Xwrey9+x71PWyJn6s8yiTcb3QHJzqGKp4F5++1Pbt0oXG4xvqP0VP
+GbmXP9dbXytu/3QPnngz+tAz/pxdmD8WtbczuWfbHTRTOVF3smWyYKHugHfnkY9F
+fX2ztUWpzJf57MfzsQ1nroY3duW05pK2LePutIYcd3FUcjhtYCohyzsycvdaVuF0
+d03v28UfSc9e8Xlz90u7+9yvjYtSd3vMJm/lk+29gz42NelpM5wfDc5OBN7vTj47
+vitybscNEBkJzWzO5F5wy78AEItGoQ==
+=1P4y
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sergivb01
+
+==================================================================
