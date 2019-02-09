@@ -1,17 +1,20 @@
 +++
-title = "About Hugo"
-date = "2014-04-09"
+date = "2019-02-08T23:00:00+00:00"
+title = "About"
+
 +++
+I'm a 17 years old software engineer based in Catalonia, Spain.
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
+I enjoy coding **scalable**, simple and **robust** problem solutions. When I'm not coding you'll find me watching videos or series, or may be learning something new.
 
-It makes use of a variety of open source projects including:
+I love coding in [GoLang](https://golang.org/ "The Go Programming Language") and deploying into [Kubernetes](https://k8s.io "Kubernetes"), and building micro-services in order to create a fully working product.
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+I am currently learning:
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+* GoLang
+* Kubernetes
+* Amazon Web Services
+* Google Cloud Platform
+* Micro-services RCP
 
+You can also find almost all the stack I've ever used in [Stackshare](https://stackshare.io/sergivb01 "My stackshare").
