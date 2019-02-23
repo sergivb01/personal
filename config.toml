@@ -7,7 +7,7 @@ enableGitInfo = false
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
 pygmentsStyle = "monokai"
-rssLimit = 15
+rssLimit = 35
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 enableEmoji = true
 googleAnalytics = "UA-132775152-1"
@@ -36,6 +36,7 @@ disqusShortname = "sergivb01"
   # description = ""
   # images = [""]
   themeColor = "#494f5c"
+  description = "Sergi Vos personal website"
 
   homeSubtitle = "tech enthusiastic and coder"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
@@ -55,6 +56,10 @@ disqusShortname = "sergivb01"
   [[params.social]]
     name = "github"
     url = "https://github.com/sergivb01"
+
+  [[params.social]]
+    name = "telegram"
+    url = "https://t.me/sergivb01"
 
   [[params.social]]
     name = "email"
