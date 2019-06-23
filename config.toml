@@ -1,8 +1,15 @@
-baseURL = "https://sergivos.dev"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Sergi Vos"
-theme = "hermit"
+baseurl = "https://sergivos.dev"
+title = "Sergi Vos Bosch"
+theme = "hugo-coder"
+defaultcontentlanguage = "en"
+paginate = 20
+canonifyurls = true
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+disqusShortname = "sergivb01"
 enableGitInfo = false
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
@@ -11,73 +18,106 @@ rssLimit = 35
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 enableEmoji = true
 googleAnalytics = "UA-132775152-1"
-disqusShortname = "sergivb01"
 
-[author]
-  name = "Sergi Vos"
+[params]
+    author = "Sergi Vos"
+    themecolor = "#000000"
+    description = "Sergi Vos's personal website"
+    keywords = "blog,developer,personal,software,engineer,sre,devops"
+    info = "Backend Developer and DevOps"
+    avatarurl = "images/sergi-animated.gif"
+    images = ["images/sergi-animated.gif"]
+    dateformat = "January 2, 2006"
+    hidecredits = true
+    hidecopyright = true
+    # Use inverted colors
+    inverted = true
 
-[blackfriday]
-  hrefTargetBlank = true
-  angledQuotes = true
-  nofollowLinks = true
-  noreferrerLinks = true
 
 [taxonomies]
   tag = "tags"
-  category = ""  # Categories are disabled by default.
 
-[params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
-
-  # Metadata mostly used in document's head
-  # description = ""
-  # images = [""]
-  themeColor = "#494f5c"
-  description = "Sergi Vos personal website"
-
-  homeSubtitle = "tech enthusiastic and coder"
-  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-  # bgImg = ""  # Homepage background-image URL
-  justifyContent = false  # Set "text-align: justify" to .content.
-
-  # Social Icons
-  # Check https://github.com/Track3/hermit#social-icons for more info.
-  [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/sergivb01"
-
-  [[params.social]]
-    name = "instagram"
-    url = "https://instagram.com/sergivb01"
-
-  [[params.social]]
-    name = "github"
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
     url = "https://github.com/sergivb01"
+[[params.social]]
+    name = "Instagram"
+    icon = "fab fa-instagram"
+    weight = 2
+    url = "https://instagram.com/sergivb01"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 3
+    url = "https://twitter.com/sergivb01"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 4
+    url = "https://www.linkedin.com/in/sergivb01"
 
-  [[params.social]]
-    name = "telegram"
-    url = "https://t.me/sergivb01"
 
-  [[params.social]]
-    name = "email"
-    url = "mailto:hi@sergivb01.me?Subject=Hi"
+[languages]
+    [languages.en]
+        languagename = "English"
 
-[menu]
+        [[languages.en.menu.main]]
+        name = "About"
+        weight = 1
+        url = "/about/"
 
-  [[menu.main]]
-    name = "Posts"
-    url = "posts/"
-    weight = 10
+        [[languages.en.menu.main]]
+        name = "Blog"
+        weight = 2
+        url = "/posts/"
 
-  [[menu.main]]
-    name = "About"
-    url = "about/"
-    weight = 20
+        [[languages.en.menu.main]]
+        name = "Contact me"
+        weight = 5
+        url = "/contact/"
+    [languages.es]
+        languagename = "Español"
 
-[sitemap]
-  changefreq = "monthly"
-  filename = "sitemap.xml"
-  priority = 0.5
+        [languages.es.params]
+        description = "Pagina personal de Sergi Vos"
+        keywords = "blog,programador,personal,software,ingeniero,sre,devops"
+        info = "Programador Backend y DevOps"
+
+        [[languages.es.menu.main]]
+        name = "Informacion"
+        weight = 1
+        url = "/about/"
+
+        [[languages.es.menu.main]]
+        name = "Blog"
+        weight = 2
+        url = "/posts/"
+
+        [[languages.es.menu.main]]
+        name = "Contactame"
+        weight = 5
+        url = "/contact/"
+    [languages.ca]
+        languagename = "Català"
+
+        [languages.ca.params]
+        description = "Pàgina personal de Sergi Vos"
+        keywords = "blog,programador,personal,software,enginyer,sre,devops"
+        info = "Programador Backend i DevOps"
+
+        [[languages.ca.menu.main]]
+        name = "Informació"
+        weight = 1
+        url = "/about/"
+
+        [[languages.ca.menu.main]]
+        name = "Blog"
+        weight = 2
+        url = "/posts/"
+
+        [[languages.ca.menu.main]]
+        name = "Contacta'm"
+        weight = 5
+        url = "/contact/"

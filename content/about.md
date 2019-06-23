@@ -1,21 +1,16 @@
 +++
-date = "2019-02-09T16:30:00+00:00"
+date = "2019-06-23T02:32:00+01:00"
 title = "About"
 
 +++
-I'm a 17 years old software engineer based in Catalonia, Spain.
+Hi there, I'm Sergivb01 also known as **Sergi Vos Bosch**. I'm **17 years old** and I'm based in **Catalonia**, Spain.
 
-I enjoy coding **scalable**, **simple** and **robust** problem solutions. When I'm not coding you'll find me watching videos or series, or may be learning something new.
+I'm a backend developer who specializes in **[Go](https://golang.org "The Go Programming Language")**, I'm currently attempting to learn Python, and **distributed systems** to advance my skill set.
 
-I love coding in [GoLang](https://golang.org/ "The Go Programming Language") and deploying microservices with [Kubernetes](https://k8s.io "Kubernetes") in order to create a fully working product.
+I'm not very good at frontend work nor golang templating, but I'm learning more about React and Vue everyday.
 
-I am currently learning:
+I consider myself a backend developer not because I can develop a backend. But mainly because I do a lot of functional backend work which releases stress from the application and infrastructure.
 
-* GoLang
-* Kubernetes
-* SRE & Distributed systems
-* Amazon Web Services
-* Google Cloud Platform
-* Micro-services RPC
+But where I really shine is **DevOps and SRE**, anything that can be automated. But in my downtime I am learning more about other tools to make myself useful in other environments though.
 
-You can also find almost all the stack I've ever used in [Stackshare](https://stackshare.io/sergivb01 "My stackshare").
+I'm pretty knowledgeable in the world of cloud infrastructure as well with services like **[Google Cloud Platform](https://cloud.google.com/ "Cloud Computing services | Google Cloud")** or Amazon Web Services.
