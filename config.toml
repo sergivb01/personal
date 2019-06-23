@@ -64,13 +64,18 @@ googleAnalytics = "UA-132775152-1"
         languagename = "English"
 
         [[languages.en.menu.main]]
-        name = "About"
+        name = "Home"
         weight = 1
+        url = "/"
+
+        [[languages.en.menu.main]]
+        name = "About"
+        weight = 2
         url = "/about/"
 
         [[languages.en.menu.main]]
         name = "Blog"
-        weight = 2
+        weight = 3
         url = "/posts/"
 
     [languages.es]
@@ -82,13 +87,18 @@ googleAnalytics = "UA-132775152-1"
         info = "Programador Backend y DevOps"
 
         [[languages.es.menu.main]]
-        name = "Informacion"
+        name = "Inicio"
         weight = 1
+        url = "/"
+
+        [[languages.es.menu.main]]
+        name = "Información"
+        weight = 2
         url = "/about/"
 
         [[languages.es.menu.main]]
         name = "Blog"
-        weight = 2
+        weight = 3
         url = "/posts/"
 
     [languages.ca]
@@ -99,12 +109,17 @@ googleAnalytics = "UA-132775152-1"
         keywords = "blog,programador,personal,software,enginyer,sre,devops"
         info = "Programador Backend i DevOps"
 
+        [[languages.en.menu.main]]
+        name = "Inici"
+        weight = 1
+        url = "/"
+
         [[languages.ca.menu.main]]
         name = "Informació"
-        weight = 1
+        weight = 2
         url = "/about/"
 
         [[languages.ca.menu.main]]
         name = "Blog"
-        weight = 2
+        weight = 3
         url = "/posts/"
