@@ -109,7 +109,7 @@ googleAnalytics = "UA-132775152-1"
         keywords = "blog,programador,personal,software,enginyer,sre,devops"
         info = "Programador Backend i DevOps"
 
-        [[languages.en.menu.main]]
+        [[languages.ca.menu.main]]
         name = "Inici"
         weight = 1
         url = "/"
