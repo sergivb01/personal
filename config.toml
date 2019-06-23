@@ -6,18 +6,17 @@ theme = "hugo-coder"
 defaultcontentlanguage = "en"
 paginate = 20
 canonifyurls = true
-pygmentsstyle = "b2"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
 disqusShortname = "sergivb01"
 enableGitInfo = false
-pygmentsCodefences  = true
-pygmentsUseClasses  = true
-pygmentsStyle = "monokai"
-rssLimit = 35
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 enableEmoji = true
 googleAnalytics = "UA-132775152-1"
+enableRobotsTXT = true
+buildDrafts = true
+buildFuture = true
+
+pygmentsCodeFences = true
+pygmentsStyle = "monokai"
 
 [params]
     author = "Sergi Vos"
@@ -36,6 +35,8 @@ googleAnalytics = "UA-132775152-1"
 
 [taxonomies]
   tag = "tags"
+  categories = "categories"
+  series = "series"
 
 [[params.social]]
     name = "Github"
@@ -89,37 +90,37 @@ googleAnalytics = "UA-132775152-1"
         [[languages.es.menu.main]]
         name = "Inicio"
         weight = 1
-        url = "/"
+        url = "/es/"
 
         [[languages.es.menu.main]]
         name = "Información"
         weight = 2
-        url = "/about/"
+        url = "/es/about/"
 
         [[languages.es.menu.main]]
         name = "Blog"
         weight = 3
-        url = "/posts/"
+        url = "/es/posts/"
 
-    [languages.ca]
+    [languages.cat]
         languagename = "Català"
 
-        [languages.ca.params]
+        [languages.cat.params]
         description = "Pàgina personal de Sergi Vos"
         keywords = "blog,programador,personal,software,enginyer,sre,devops"
         info = "Programador Backend i DevOps"
 
-        [[languages.ca.menu.main]]
+        [[languages.cat.menu.main]]
         name = "Inici"
         weight = 1
-        url = "/"
+        url = "/cat/"
 
-        [[languages.ca.menu.main]]
+        [[languages.cat.menu.main]]
         name = "Informació"
         weight = 2
-        url = "/about/"
+        url = "/cat/about/"
 
-        [[languages.ca.menu.main]]
+        [[languages.cat.menu.main]]
         name = "Blog"
         weight = 3
-        url = "/posts/"
+        url = "/cat/posts/"

@@ -1,5 +1,7 @@
 +++
+date = "2014-04-02"
 title = "(Hu)go Template Primer"
+slug = "hugo-template-primer"
 tags = [
     "go",
     "golang",
@@ -7,33 +9,36 @@ tags = [
     "themes",
     "development",
 ]
-date = "2014-04-02"
-toc = true
+categories = [
+    "Development",
+    "golang",
+]
+series = ["Getting Started", "Hugo"]
 +++
 
-Hugo uses the excellent [Go][] [html/template][gohtmltemplate] library for
+Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for
 its template engine. It is an extremely lightweight engine that provides a very
 small amount of logic. In our experience that it is just the right amount of
 logic to be able to create a good static website. If you have used other
 template systems from different languages or frameworks you will find a lot of
-similarities in Go templates.
+similarities in go templates.
 
-This document is a brief primer on using Go templates. The [Go docs][gohtmltemplate]
+This document is a brief primer on using go templates. The [go docs][gohtmltemplate]
 provide more details.
 
 ## Introduction to Go Templates
 
 Go templates provide an extremely simple template language. It adheres to the
 belief that only the most basic of logic belongs in the template or view layer.
-One consequence of this simplicity is that Go templates parse very quickly.
+One consequence of this simplicity is that go templates parse very quickly.
 
-A unique characteristic of Go templates is they are content aware. Variables and
+A unique characteristic of go templates is they are content aware. Variables and
 content will be sanitized depending on the context of where they are used. More
-details can be found in the [Go docs][gohtmltemplate].
+details can be found in the [go docs][gohtmltemplate].
 
 ## Basic Syntax
 
-Golang templates are HTML files with the addition of variables and
+Go lang templates are html files with the addition of variables and
 functions.
 
 **Go variables and functions are accessible within {{ }}**
@@ -61,7 +66,7 @@ Accessing the Page Parameter "bar"
 
 ## Variables
 
-Each Go template has a struct (object) made available to it. In hugo each
+Each go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
 [variables](/layout/variables) page.
@@ -78,7 +83,7 @@ Variables can also be defined and referenced.
 
 ## Functions
 
-Go template ship with a few functions which provide basic functionality. The Go
+Go template ship with a few functions which provide basic functionality. The go
 template system also provides a mechanism for applications to extend the
 available functions with their own. [Hugo template
 functions](/layout/functions) provide some additional functionality we believe
@@ -108,7 +113,7 @@ Go templates provide the most basic iteration and conditional logic.
 
 ### Iteration
 
-Just like in Go, the Go templates make heavy use of range to iterate over
+Just like in go, the go templates make heavy use of range to iterate over
 a map, array or slice. The following are different examples of how to use
 range.
 
@@ -179,12 +184,12 @@ The first example above could be simplified as:
 
 ## Pipes
 
-One of the most powerful components of Go templates is the ability to
+One of the most powerful components of go templates is the ability to
 stack actions one after another. This is done by using pipes. Borrowed
 from unix pipes, the concept is simple, each pipeline's output becomes the
 input of the following pipe.
 
-Because of the very simple syntax of Go templates, the pipe is essential
+Because of the very simple syntax of go templates, the pipe is essential
 to being able to chain together function calls. One limitation of the
 pipes is that they only can work with a single value and that value
 becomes the last parameter of the next pipeline.
@@ -223,7 +228,7 @@ Could be rewritten as
 
 ## Context (aka. the dot)
 
-The most easily overlooked concept to understand about Go templates is that {{ . }}
+The most easily overlooked concept to understand about go templates is that {{ . }}
 always refers to the current context. In the top level of your template this
 will be the data set made available to it. Inside of a iteration it will have
 the value of the current item. When inside of a loop the context has changed. .
@@ -335,5 +340,5 @@ so, such as in this example:
 ```
 
 
-[go]: https://golang.org/
-[gohtmltemplate]: https://golang.org/pkg/html/template/
+[go]: <http://golang.org/>
+[gohtmltemplate]: <http://golang.org/pkg/html/template/>
