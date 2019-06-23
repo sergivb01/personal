@@ -5,7 +5,7 @@
 		if (window.location.hostname == "localhost")
 			return document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
 
-		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = false;
 		var disqus_shortname = '{{ .Site.DisqusShortname }}';
 		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
