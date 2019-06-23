@@ -1,6 +1,4 @@
-# 🌐 Personal Website 🤓
-[![netlify][netlify]][netlify-url]
-[![pr_welcome][pr_welcome]][pr_welcome-url]
+# [![netlify][netlify]][netlify-url] [![pr_welcome][pr_welcome]][pr_welcome-url] Personal Website 🤓
 
 This repository contains my very own personal website that contains my about-me and blog system. It's built using
 [GoHugo](https://gohugo.io "GoHugo official website") and it uses [Hugo-Coder](https://github.com/luizdepra/hugo-coder) theme.
