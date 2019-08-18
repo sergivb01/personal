@@ -1,9 +1,9 @@
 +++
 date = "2017-01-08"
-title = "Theme Demo"
+title = "Theme display"
 description = "The post demonstrates features of the coder theme."
-images = ["/images/N90.jpg"]
 math = "true"
+katex = "true"
 series = ["Theme", "Hugo"]
 +++
 
@@ -74,6 +74,25 @@ var foo = function (bar) {
 
 console.log(foo(5));
 ```
+
+## Hugo Katex
+Enable katex by adding `katex = "true"` to the [front matter](https://gohugo.io/content-management/front-matter/)  
+```tex
+This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$
+```
+
+This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$  
+and with math blocks:  
+
+```tex
+$$
+\sum_{n=1}^{\infty} 2^{-n} = 1
+$$
+```
+
+$$
+\sum_{n=1}^{\infty} 2^{-n} = 1
+$$
 
 ## Hugo shortcode for figure
 
