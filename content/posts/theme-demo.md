@@ -4,6 +4,7 @@ title = "Theme display"
 description = "The post demonstrates features of the coder theme."
 math = "true"
 katex = "true"
+draft = "true"
 series = ["Theme", "Hugo"]
 +++
 
