@@ -10,7 +10,7 @@ description = "How has the censorship against Tsunami Democràtic websites been 
 ## Domains
 The organization several domains, such as `tsunamidemocratic.cat` and `democratictsunami.eu`, both of which were bought via *Tucows Domains Inc.* on the **13rd of July 2019** and use [Cloudflare](https://cloudflare.com) domain name servers and protect against attacks.
 
-The organization's web was made up of two websites, one to distribute and publish the application used to organize the protests and another for the organization itself. Few days after the riots started a new version of the website was published and both sites were merged into a single one.
+The organization's web was made up of two websites, one to distribute and publish the application used to organize the protests and another for the organization itself. Few days after the manifestations started a new version of the website was published and both sites were merged into a single one.
 
 ## Hosting
 The application website (`app.tsunamidemocratic.cat`) was hosted in [GitHub Pages](https://pages.github.com) using the GitHub account of [s3rrallonga](https://github.com/s3rrallonga), a Catalan brigand likely to *Robin Hood* ([more info](https://www.sapiens.cat/temes/personatges/qui-era-serrallonga_17330_102.html)). The repository [s3rrallonga.github.io](https://github.com/s3rrallonga/s3rrallonga.github.io) has more than **32 forks** and **40 stars**, even tho the organization itself has not published the repository themselves. It also has few issues where people asked for an iOS version of the application and some other minor application issues.

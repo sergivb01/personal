@@ -1,10 +1,10 @@
 +++
+draft = true
 date = "2017-01-08"
 title = "Theme display"
 description = "The post demonstrates features of the coder theme."
 math = "true"
 katex = "true"
-draft = "true"
 series = ["Theme", "Hugo"]
 +++
 
