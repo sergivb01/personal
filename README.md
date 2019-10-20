@@ -5,7 +5,8 @@ This repository contains my very own personal website that contains my about-me 
 [GoHugo](https://gohugo.io "GoHugo official website") and it uses [Hugo-Coder](https://github.com/luizdepra/hugo-coder) theme.
 
 ## 📃 Articles
-* A TODO
+* **EN** [Tsunami Democràtic Censorship](https://sergivos.dev/posts/tsunami-censorship/)
+* **CAT** [Censura de Tsunami Democràtic](https://sergivos.dev/cat/posts/tsunami-censorship/)
 
 ## 📖 License
 Personal is licensed under the [MIT License](LICENSE).
