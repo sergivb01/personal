@@ -1,10 +1,12 @@
-# 🌐 Personal Website 🤓
+# Personal Website
 [![netlify][netlify]][netlify-url] [![pr_welcome][pr_welcome]][pr_welcome-url]
 
 This repository contains my very own personal website that contains my about-me and blog system. It's built using
 [GoHugo](https://gohugo.io "GoHugo official website") and it uses [Hugo-Coder](https://github.com/luizdepra/hugo-coder) theme.
 
-## 📃 Articles
+Content is published using [Netlify](https://netlify.com) and served via [sergivos.dev](https://sergivos.dev) or [sergi.tech](https://sergi.tech)
+
+## 📃 Posts
 * **EN** [Tsunami Democràtic Censorship](https://sergivos.dev/posts/tsunami-censorship/)
 * **CAT** [Censura de Tsunami Democràtic](https://sergivos.dev/cat/posts/tsunami-censorship/)
 
