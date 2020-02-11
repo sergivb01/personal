@@ -3,7 +3,7 @@ date = "2019-06-22T02:32:00+01:00"
 title = "About"
 +++
 
-Hi there, I'm **Sergi Vos Bosch** also known as **sergivb01** on the Internet. I'm **17 years old** and based in **Catalonia, Spain**, therefore I speak **Catalan**, **Spanish** and **English**.
+Hi there, I'm **Sergi Vos Bosch** also known as **sergivb01** on the Internet. I'm **18 years old** and based in **Catalonia, Spain**, therefore I speak **Catalan**, **Spanish** and **English**.
 
 I'm a backend developer who specializes in **[Go](https://golang.org "The Go Programming Language")**, currently attempting to learn Python, and **distributed systems** to advance my skill set.
 
