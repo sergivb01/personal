@@ -23,7 +23,7 @@ pygmentsStyle = "monokai"
     themecolor = "#000000"
     description = "Sergi Vos's personal website"
     keywords = "blog,developer,personal,software,engineer,sre,devops"
-    info = "Backend Developer and DevOps"
+    info = "Backend Developer and SRE"
     avatarurl = "images/sergi-animated.gif"
     images = ["images/sergi-animated.gif"]
     dateformat = "January 2, 2006"
@@ -85,7 +85,7 @@ pygmentsStyle = "monokai"
         [languages.es.params]
         description = "Pagina personal de Sergi Vos"
         keywords = "blog,programador,personal,software,ingeniero,sre,devops"
-        info = "Programador Backend y DevOps"
+        info = "Programador Backend y SRE"
 
         [[languages.es.menu.main]]
         name = "Inicio"
@@ -108,7 +108,7 @@ pygmentsStyle = "monokai"
         [languages.cat.params]
         description = "Pàgina personal de Sergi Vos"
         keywords = "blog,programador,personal,software,enginyer,sre,devops"
-        info = "Programador Backend i DevOps"
+        info = "Programador Backend i SRE"
 
         [[languages.cat.menu.main]]
         name = "Inici"

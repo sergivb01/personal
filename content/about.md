@@ -5,7 +5,7 @@ title = "About"
 
 Hi there, I'm **Sergi Vos Bosch** also known as **sergivb01** on the Internet. I'm **18 years old** and based in **Catalonia, Spain**, therefore I speak **Catalan**, **Spanish** and **English**.
 
-I'm a backend developer who specializes in **[Go](https://golang.org "The Go Programming Language")**, currently attempting to learn Python, and **distributed systems** to advance my skill set.
+I'm a backend developer who specializes in **[Go](https://golang.org "The Go Programming Language")**, currently attempting to learn **[Rust](https://www.rust-lang.org/)**, and **distributed systems** to advance my skill set.
 
 In contrast, I'm not very good at frontend work nor UI/UX design, but I'm learning more about **React and Vue** every day.
 
